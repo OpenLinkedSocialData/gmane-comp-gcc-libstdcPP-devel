@@ -1,0 +1,22 @@
+@prefix gmane: <http://purl.org/socialparticipation/gmane/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/socialparticipation/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/socialparticipation/po/Snapshot#gmane-comp-gcc-libstdc++-devel> a po:Snapshot ;
+    rdfs:label "Snapshot gmane-comp-gcc-libstdc++-devel" ;
+    po:acquiredThrough "Gmane public database of email lists"^^xsd:string ;
+    po:availableAt "https://github.com/ttm/gmane-comp-gcc-libstdc++-devel"^^xsd:string ;
+    po:createdAt "2015-12-03T03:12:46.288288"^^xsd:datetime ;
+    po:discorveryRDFFile "https://raw.githubusercontent.com/ttm/gmane-comp-gcc-libstdc++-devel/master/rdf/gmane-comp-gcc-libstdc++-develMeta.owl"^^xsd:string ;
+    po:discoveryTTLFile "https://raw.githubusercontent.com/ttm/gmane-comp-gcc-libstdc++-devel/master/rdf/gmane-comp-gcc-libstdc++-develMeta.ttl"^^xsd:string ;
+    po:donatedBy "Gmane database and list admins"^^xsd:string ;
+    po:originalFile "https://raw.githubusercontent.com/ttm/gmane-comp-gcc-libstdc++-devel/master/base/gmane.comp.gcc.libstdc++.devel"^^xsd:string ;
+    po:rdfFile "https://raw.githubusercontent.com/ttm/gmane-comp-gcc-libstdc++-devel/master/rdf/gmane-comp-gcc-libstdc++-develTranslate.owl"^^xsd:string ;
+    po:triplifiedIn "2015-12-03T03:12:46.288958"^^xsd:datetime ;
+    po:ttlFile "https://raw.githubusercontent.com/ttm/gmane-comp-gcc-libstdc++-devel/master/rdf/gmane-comp-gcc-libstdc++-develTranslate.ttl"^^xsd:string ;
+    rdfs:comment "Linked data of the email list with Gmane id: gmane.comp.gcc.libstdc++.devel"^^xsd:string .
+
